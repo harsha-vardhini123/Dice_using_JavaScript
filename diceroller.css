@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(68, 204, 177);
+}
+
+.head h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+#container label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+#container input {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+#container button {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  border-radius: 12px;
+  background-color: rgba(58, 128, 226, 0.489);
+}
+#container button:hover {
+  border-radius: 15px;
+  background-color: rgba(21, 97, 132, 0.812);
+  color: white;
+}
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+#images {
+  border: 2px solid black;
+  display: inline-block;
+}
+.dice_image {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+}
